@@ -83,7 +83,7 @@ class Pie: UIView {
 
         hand = CAShapeLayer()
         hand.strokeColor = UIColor(red: 175/255.0, green: 170/255.0, blue: 192/255.0, alpha: 1.0).CGColor
-        hand.lineWidth = 2.5
+        hand.lineWidth = 2
         hand.path = line.CGPath
         layer.addSublayer(hand)
     }
