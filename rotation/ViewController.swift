@@ -77,7 +77,7 @@ class Pie: UIView {
         let line = UIBezierPath()
         line.moveToPoint(circleCenter)
         line.addLineToPoint(point)
-        line.lineWidth = 1
+        line.lineWidth = 1.5
         line.lineCapStyle = CGLineCap.Round
         line.lineJoinStyle = CGLineJoin.Round
 
